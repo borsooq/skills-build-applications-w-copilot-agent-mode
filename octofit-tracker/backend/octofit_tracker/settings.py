@@ -27,6 +27,10 @@ DEBUG = True
 
 # Allow all hosts
 ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS += [
+    '[REPLACE-THIS-WITH-YOUR-CODESPACE-NAME]-8000.app.github.dev',
+    'localhost',
+]
 
 
 # Application definition
